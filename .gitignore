@@ -1,0 +1,5 @@
+# Project exclude paths
+/battlecode25-scaffold-main/java/.gradle/
+/battlecode25-scaffold-main/java/build/
+/battlecode25-scaffold-main/java/build/classes/
+/battlecode25-scaffold-main/java/build/tests/
