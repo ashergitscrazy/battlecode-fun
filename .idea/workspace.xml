@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fbd4ff0-356f-498d-9bdd-97faa953f8d0" name="Changes" comment="" />
+    <list default="true" id="4fbd4ff0-356f-498d-9bdd-97faa953f8d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/matches/Refactored2-vs-examplefuncsplayer-on-DefaultMedium.bc25" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/matches/Refactored2-vs-examplefuncsplayer-on-DefaultMedium.bc25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Mopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Mopper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Soldier.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,10 +51,26 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ashergitscrazy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ashergitscrazy/battlecode-fun.git&quot;,
+    &quot;accountId&quot;: &quot;7d996e5f-d239-43cb-81d5-874ff461e9f6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2rdBkeVeXM4fu4sZsI8IfF6uq4T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,6 +80,7 @@
     &quot;Gradle.java [build].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.java [update].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/2502798/Desktop/battlecode-fun&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,

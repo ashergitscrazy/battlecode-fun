@@ -2,12 +2,22 @@ package Refactored2;
 
 import battlecode.common.*;
 
+import java.util.ArrayList;
+
 public class Soldier {
     static MapLocation target;
     static Direction previous;
     static int moveCount= 0;
+    static boolean justSpawned = true;
+    static MapLocation[] spawnTower;
+    static ArrayList<MapLocation> knownTowers = new ArrayList<>();
     public static void runSoldier(RobotController rc) throws GameActionException {
-        int moveLength = getMapSize(rc) / 1156;
+        int moveLength = getMapSize(rc) / 1000;
+        if(justSpawned) {
+            spawnTower = rc.senseNearbyRuins(4);
+            knownTowers.add(spawnTower[0]);
+            justSpawned = false;
+        }
         Message[] messages = rc.readMessages(-1);
         Direction dir = RobotPlayer.directions[RobotPlayer.rng.nextInt(RobotPlayer.directions.length)];
         for (Message m : messages) {
@@ -60,6 +70,16 @@ public class Soldier {
                 System.out.println("Built a tower at " + t + "!");
                 Tower.isSaving = false;
             }
+        }
+        if(target == null) {
+            MapLocation[] nearbyRuins = rc.senseNearbyRuins(4);
+            for(MapLocation l: nearbyRuins) {
+                if(!knownTowers.contains(l)) {
+                    target = l;
+                    knownTowers.add(target);
+                }
+            }
+            if(rc.canMarkResourcePattern(rc.getLocation())) rc.markTowerPattern(UnitType.LEVEL_ONE_PAINT_TOWER, rc.getLocation());
         }
         if(moveCount == 0) {
             dir = RobotPlayer.directions[RobotPlayer.rng.nextInt(RobotPlayer.directions.length)];

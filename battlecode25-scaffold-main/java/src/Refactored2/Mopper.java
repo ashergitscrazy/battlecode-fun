@@ -14,7 +14,7 @@ public class Mopper {
     static int moveCount = 0;
     static Direction previous;
     public static void runMopper(RobotController rc) throws GameActionException {
-        int moveLength = getMapSize(rc) / 1156;
+        int moveLength = getMapSize(rc) / 2000;
         if(justSpawned) {
             spawnTower = rc.senseNearbyRuins(4);
             knownTowers.add(spawnTower[0]);
