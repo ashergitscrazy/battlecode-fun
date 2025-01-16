@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fbd4ff0-356f-498d-9bdd-97faa953f8d0" name="Changes" comment="">
+    <list default="true" id="4fbd4ff0-356f-498d-9bdd-97faa953f8d0" name="Changes" comment="j">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/matches/Refactored2-vs-examplefuncsplayer-on-DefaultMedium.bc25" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/matches/Refactored2-vs-examplefuncsplayer-on-DefaultMedium.bc25" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Mopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Mopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/battlecode25-scaffold-main/java/src/Refactored2/Soldier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +72,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.java [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java [update].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/2502798/Desktop/battlecode-fun&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.java [build].executor": "Run",
+    "Gradle.java [update].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/2502798/Desktop/battlecode-fun",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.java [build]">
     <configuration name="java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -149,6 +146,19 @@
       <option name="presentableId" value="Default" />
       <updated>1736879215968</updated>
     </task>
+    <task id="LOCAL-00001" summary="j">
+      <option name="closed" value="true" />
+      <created>1736883936495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736883936495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="j" />
+    <option name="LAST_COMMIT_MESSAGE" value="j" />
   </component>
 </project>

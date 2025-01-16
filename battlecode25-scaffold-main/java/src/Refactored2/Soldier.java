@@ -34,7 +34,7 @@ public class Soldier {
                 dx = 4 * (dx / Math.abs(dx));
             }
             if (Math.abs(dy) > 4) {
-                dy = -4 * (dy / Math.abs(dy));
+                dy = 4 * (dy / Math.abs(dy));
             }
             MapLocation t = new MapLocation(x + dx, y + dy);
 
